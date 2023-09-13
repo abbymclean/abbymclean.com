@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Monton';
+  src: url('./assets/Monoton-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Dongle';
+  src: url('./assets/Dongle-Light.ttf') format('truetype');
+  font-style: normal;
+}
+
+* {
+  font-family: "Dongle", sans-serif;
+}
+
+::selection {
+  color: #144E49;
+  background-color: #E8F0DD;
+}
+p, legend, h2, input {
+  color: #144E49;
+}
+
+body {
+  font-size: 24px;
+  background-color: #eac7e4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#headContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 1 auto;
+}
+nav {
+    flex: 1 1 auto;
+}
+
+@media screen and (min-width: 700px) {
+    #headContainer {
+        flex-direction: row;
+    }
+}
+
+header h1 {
+  margin: 10px;
+  padding: 0 25px;
+  color: #144E49;
+  font-family: 'Monton', sans-serif;
+  font-weight: 400;
+  font-size: 28pt;
+  background: linear-gradient(90deg, #144E49, #D6B240);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #c393d7;
+  color: #216087;
+}
+
+nav ul {
+    display: flex;
+  list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    align-items: center;
+    height: 100%; /* adjust this as per your needs */
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+a {
+  color: #416CA5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D6B240;
+  text-decoration: none;
+}
+
+p {
+  max-width: 36em;
+}
+
+#emailFieldSet {
+    display: flex;
+}
+#email, #emailButton {
+    border: 2px solid #416CA5;
+    padding: 5px 20px;
+    font-size: 0.8em;
+    outline:none;
+    box-sizing:border-box;
+}
+#emailButton:hover {
+  color: #D6B240;
+}
+#email {
+    flex-grow: 1;
+    border-right: none;
+    border-radius: 0px;
+    background-color: inherit;
+}
+#emailButton {
+    border-left: none;
+    background-color: #416CA5;
+    color: #EAC7E4;
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+legend {
+    padding: 0;
+    margin: 10px 0px -5px 0px;
+}
+
+.fab, .fa-brands {
+    font-size: 16px;
+    padding-right: 8px;
+}
+#socials {
+    text-align: center;
+    margin: 8px;
+}
+#socials a {
+    text-decoration: none;
+}
