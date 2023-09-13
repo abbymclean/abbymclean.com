@@ -11,16 +11,14 @@ document.getElementById('emailForm').addEventListener('submit', function(e) {
     body: JSON.stringify({ email: document.getElementById('email').value })
   }).then(function(response) {
     console.log(response)
-    if (response.status == 0) {
-      document.getElementById('emailForm').innerHTML = '<p>Thanks for subscribing!</p>';
-      setTimeout(function() {
-        var element = document.getElementById('emailForm');
-        element.parentNode.removeChild(element);
-      }, 3000);
-    }
   })
     .catch(function(error) {
       console.log(error)
       alert('Failed to subscribe');
     });
+   document.getElementById('emailForm').innerHTML = '<p>Thanks for subscribing!</p>';
+      setTimeout(function() {
+        var element = document.getElementById('emailForm');
+        element.parentNode.removeChild(element);
+      }, 3000);
 });
