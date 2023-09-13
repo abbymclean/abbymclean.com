@@ -73,6 +73,7 @@ header h1 {
 
 /* Style the navigation bar */
 nav {
+font-size: 1.36em;
   background-color: #c393d7;
   color: #216087;
 }
