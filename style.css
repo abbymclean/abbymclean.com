@@ -113,6 +113,7 @@ img {
 }
 #email, #emailButton {
     border: 2px solid #416CA5;
+    border-radius: 0px;
     padding: 5px 20px;
     font-size: 0.8em;
     outline:none;
@@ -124,7 +125,6 @@ img {
 #email {
     flex-grow: 1;
     border-right: none;
-    border-radius: 0px;
     background-color: inherit;
 }
 #emailButton {
