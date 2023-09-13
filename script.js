@@ -17,8 +17,4 @@ document.getElementById('emailForm').addEventListener('submit', function(e) {
       alert('Failed to subscribe');
     });
    document.getElementById('emailForm').innerHTML = '<p>Thanks for subscribing!</p>';
-      setTimeout(function() {
-        var element = document.getElementById('emailForm');
-        element.parentNode.removeChild(element);
-      }, 3000);
 });
