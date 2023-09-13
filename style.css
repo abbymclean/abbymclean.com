@@ -104,6 +104,10 @@ p {
   max-width: 36em;
 }
 
+img {
+  max-width: 100%;
+}
+
 #emailFieldSet {
     display: flex;
 }
