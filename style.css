@@ -31,7 +31,7 @@ p, legend, h2, input {
 
 body {
   font-size: 24px;
-  background-color: #eac7e4;
+  background-color: #f8e6eb;
 }
 
 .container {
@@ -62,20 +62,18 @@ nav {
 header h1 {
   margin: 10px;
   padding: 0 25px;
-  color: #144E49;
+  color: #fff2d5;
   font-family: 'Monton', sans-serif;
   font-weight: 400;
   font-size: 28pt;
-  background: linear-gradient(90deg, #144E49, #D6B240);
+  background: linear-gradient(90deg, #fff2d5, #ffa473);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* Style the navigation bar */
 nav {
-font-size: 1.36em;
-  background-color: #c393d7;
-  color: #216087;
+  background-color: #fcf5fa;
 }
 
 nav ul {
@@ -91,13 +89,17 @@ nav ul li {
   margin-left: 15px;
 }
 
+nav a {
+  color: #f8e6eb;
+}
+
 a {
-  color: #416CA5;
+  color: #263E40;
   text-decoration: none;
 }
 
 a:hover {
-  color: #D6B240;
+  color: #D05448;
   text-decoration: none;
 }
 
@@ -113,7 +115,7 @@ img {
     display: flex;
 }
 #email, #emailButton {
-    border: 2px solid #416CA5;
+    border: 2px solid #263E40;
     border-radius: 0px;
     padding: 5px 20px;
     font-size: 0.8em;
@@ -121,7 +123,7 @@ img {
     box-sizing:border-box;
 }
 #emailButton:hover {
-  color: #D6B240;
+  color: #D05448;
 }
 #email {
     flex-grow: 1;
@@ -130,8 +132,8 @@ img {
 }
 #emailButton {
     border-left: none;
-    background-color: #416CA5;
-    color: #EAC7E4;
+    background-color: #263E40;
+    color: #f8e6eb;
 }
 fieldset {
     border: none;
