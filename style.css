@@ -22,11 +22,11 @@ html {
 }
 
 ::selection {
-  color: #144E49;
+  color: #263E40;
   background-color: #E8F0DD;
 }
 p, legend, h2, input {
-  color: #144E49;
+  color: #263E40;
 }
 
 body {
